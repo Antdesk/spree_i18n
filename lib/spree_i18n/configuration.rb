@@ -9,8 +9,8 @@ module SpreeI18n
     # to spanish as well. Once it's done :es can added to supported_locales
     #preference :available_locales, :array, :default => [:en]
     #preference :supported_locales, :array, :default => [:en]
-    Config.available_locales = [:en, :pl, :'sv-SE']
-    Config.supported_locales = [:en, :pl, :'sv-SE']
+    SpreeI18n::Config.available_locales = [:en, :pl, :'sv-SE']
+    SpreeI18n::Config.supported_locales = [:en, :pl, :'sv-SE']
 
 
   end
